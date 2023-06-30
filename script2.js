@@ -19,6 +19,8 @@ setInterval(() => {
 
 */
 
+/*
+
 const btn = document.querySelector('.container_Btn');
 
 btn.addEventListener("click",(e) =>{
@@ -34,3 +36,4 @@ const element = document.querySelector('.down');
 const rect = element.getBoundingClientRect();
 console.log(element.getBoundingClientRect());
 
+*/
