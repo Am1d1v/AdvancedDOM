@@ -29,4 +29,22 @@ body {
 .wrapper {
   color: white;
   font-size: 30px;
+}
+
+.inner {
+  color: white;
+  font-size: 30px;
+}
+.inner_Btn {
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #481752;
+  color: white;
+}
+.inner_Btn:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
