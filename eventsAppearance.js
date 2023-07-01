@@ -11,13 +11,16 @@ btn.addEventListener('click', function(event) {
     this.style.opacity = '0.6';
     //console.log(btn);
     //console.log(event.target);
+    event.stopPropagation();
     console.log(event.currentTarget);
+    
 });
 
 inner.addEventListener('click', function(event) {
     this.style.backgroundColor = 'gray';
     //console.log(inner);
     //console.log(event.target);
+    //event.stopPropagation();
     console.log(event.currentTarget);
 });
 
