@@ -2,7 +2,7 @@
 
 
 body
-    display: flex
+    display: block
     width: 50%
     height: 100%
     justify-content: center
@@ -11,8 +11,8 @@ body
 
 
 .container
-    width: 500px
-    height: 500px
+    width: 200px
+    height: 200px
     display: flex
     &_Btn
         margin: 10px
@@ -34,8 +34,8 @@ body
     color: white
     font-size: 30px
     &_wrapper
-        width: 500px
-        height: 500px
+        width: 200px
+        height: 200px
     &_Btn
         margin: 10px
         width: 150px
@@ -46,3 +46,12 @@ body
         color: white
         &:hover
             cursor: pointer
+
+.user_wrapper > div
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    margin-top: 15px
+    margin-left: 10rem
+    border: solid black 1px   

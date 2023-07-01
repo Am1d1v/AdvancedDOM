@@ -1,5 +1,5 @@
 body {
-  display: flex;
+  display: block;
   width: 50%;
   height: 100%;
   justify-content: center;
@@ -8,8 +8,8 @@ body {
 }
 
 .container {
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
   display: flex;
 }
 .container_Btn {
@@ -36,8 +36,8 @@ body {
   font-size: 30px;
 }
 .inner_wrapper {
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 200px;
 }
 .inner_Btn {
   margin: 10px;
@@ -50,4 +50,14 @@ body {
 }
 .inner_Btn:hover {
   cursor: pointer;
+}
+
+.user_wrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 10rem;
+  border: solid black 1px;
 }/*# sourceMappingURL=style.css.map */
